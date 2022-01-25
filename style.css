@@ -1,0 +1,213 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 2.7rem;
+}
+
+p {
+  font-weight: 100;
+  padding-top: 1rem;
+}
+
+.name-highlight {
+  color:#DEB887;
+}
+
+.btn {
+  font-weight: 700;
+  padding: 0.5rem 2rem;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  background: linear-gradient(to left,#DEB887, #DEB887);
+  margin-top: 2rem;
+  display: inline-block;
+}
+
+#heading-banner {
+  height: 100vh;
+  background: url('./images/header-bg.png') left/cover;
+}
+
+.half-width {
+  width: 40%;
+  float: left;
+    
+}
+
+.hw-1 {
+  margin-top: 13rem;
+  margin-left: 15%;
+}
+
+.hw-2 {
+  margin-top: 6rem;
+}
+
+.hw-2 img {
+  width: 85%;
+}
+
+img {
+  width: 100%;
+}
+
+#biography {
+  height: 100vh;
+  background: url('./images/biography-bg.png') center/cover;
+}
+
+.hw-3 {
+  margin-top: 6.5rem;
+  margin-left: 12%;
+}
+
+.hw-3 img {
+  width: 75%;
+}
+
+.hw-4 {
+  margin-top: 10rem;
+}
+
+.one-third-width {
+  float: left;
+  width: 30.5%;
+  margin-left: 1.7rem;
+  transition: all 0.5s linear;
+}
+
+.one-third-widths {
+  float: left;
+  width: 25.5%;
+border-radius:2rem;
+  margin-left: 1.7rem;
+  transition: all 0.5s linear;
+}
+
+.one-third-width .one-third-widths:hover {
+  box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.7);
+}
+
+.container {
+  padding: 6rem 4rem;
+    display: flex;
+    flex-flow: wrap;
+}
+
+#work {
+  height: 100vh;
+  background: url('./images/latest-work-bg.png') center/cover;
+}
+
+#work h2 {
+  padding-top: 6rem;
+  text-align: center;
+  font-weight: 700;
+}
+
+#experience {
+  height: 100vh;
+  background: url('./images/exp-bg.png') no-repeat left;
+}
+
+.content {
+  margin-left: 5%;
+display: flex;
+    flex-direction: row;
+}
+
+.hw-5,
+.hw-6 {
+  padding-left: 2%;
+}
+
+.hw-5 {
+  border-image: linear-gradient(#DEB887, #DEB887) 1;
+  background: #fff;
+}
+
+.hw-6 {
+  margin-left: 5%;
+  border-image: linear-gradient(#DEB887, #DEB887) 1;
+}
+
+.hw-5,
+.hw-6 {
+  border-left: 7px solid;
+  height: 60vh;
+  width: 45%;
+  box-shadow: 10px 10px 40px grey;
+}
+
+#experience h3 {
+  padding: 2rem 0;
+}
+
+#experience h2 {
+  margin: 5rem 0;
+  font-weight: 700;
+}
+
+.lorem {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.full-width {
+  padding-top: 6rem;
+}
+
+#client {
+  height: 100vh;
+  background: url('./images/footer-bg.png') left/cover;
+  clear: both;
+}
+
+#client h2 {
+  font-weight: 700;
+  margin-bottom: 5rem;
+}
+
+.founder {
+  margin-top: -1rem;
+  margin-bottom: 2rem;
+}
+
+.leave {
+  font-size: 0.9rem;
+  font-weight: 300;
+  display: block;
+  line-height: 3.5rem;
+}
+
+.btn-1 {
+  padding: 0 5rem;
+  padding-bottom: 2rem;
+  font-size: 1.5rem;
+  margin-top: 3rem;
+}
+
+#footer {
+  height: 10vh;
+  margin-top: -2rem;
+  background: #333;
+  color: #fff;
+}
